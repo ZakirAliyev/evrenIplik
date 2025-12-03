@@ -1,0 +1,276 @@
+#contactUs {
+  margin-top: -60px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+
+  .mg100 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    row-gap: 50px;
+  }
+
+  .p16 {
+    padding: 32px;
+  }
+
+  .star {
+    width: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    aspect-ratio: 1/1;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 40px;
+    color: #450210;
+    width: 900px;
+    font-weight: 500;
+  }
+
+  .aboutUs {
+    background: #E7D8C3;
+    padding: 0 16px;
+    overflow: hidden !important;
+    margin-top: -30px;
+  }
+
+  .dot {
+    height: 5px;
+    width: 5px;
+    background: #B5968B;
+    border-radius: 50%;
+  }
+
+  .line {
+    max-width: 150px;
+    width: 100%;
+    height: 1px;
+    background: #B5968B;
+  }
+
+  .box {
+    border-top-right-radius: 50px;
+    background: #E7D8C3;
+    height: 100px;
+  }
+
+  .box2 {
+    background: #E7D8C3;
+    height: 100px;
+  }
+
+  .box3 {
+    background: #E7D8C3;
+    height: 100px;
+  }
+
+  .box1 {
+    border-top-left-radius: 50px;
+    background: #E7D8C3;
+    height: 100px;
+  }
+
+  .carpet {
+    width: 100%;
+    aspect-ratio: 4 / 4.2;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .subTitle {
+    max-width: 530px;
+    font-size: 20px;
+    width: 100%;
+    color: #333333;
+  }
+
+  .yazi {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 992px) {
+      height: 75vh;
+    }
+  }
+
+  .title {
+    position: absolute;
+    text-align: center;
+    font-size: 32px;
+    color: #450210;
+    width: 100%;
+    margin-top: 75px;
+  }
+
+  .title1 {
+    position: absolute;
+    color: #450210;
+    width: 100%;
+    margin-top: 150px;
+    padding: 0 140px;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+
+    .icon {
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+  }
+
+  .title2 {
+    position: absolute;
+    color: #450210;
+    width: 100%;
+    margin-top: 260px;
+    padding: 0 140px;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+
+    .icon {
+
+    }
+  }
+
+  .title3 {
+    position: absolute;
+    color: #450210;
+    width: 100%;
+    margin-top: 370px;
+    padding: 0 140px;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+
+    .icon {
+      width: 44px!important;
+      height: 24px!important;
+    }
+  }
+
+  .carpet1 {
+    width: 100%;
+    aspect-ratio: 4 / 3.8;
+    object-fit: contain;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .icon {
+    img {
+      width: 60px;
+    }
+  }
+
+  .naxis {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px){
+    .p16 {
+      padding:0px;
+    }
+
+    .row1 {
+      flex-direction: column-reverse;
+      row-gap: 25px;
+    }
+
+    .title1 {
+      padding: 0 40px;
+    }
+
+    .title2 {
+      padding: 0 40px;
+    }
+
+    .title3 {
+      padding: 0 40px;
+    }
+
+    .carpet1 {
+      width: 100%;
+      aspect-ratio: 4 / 5.6;
+      object-fit: contain;
+      border-radius: 15px;
+      position: absolute;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    margin-top: -20px;
+    .p16 {
+      padding:0px;
+    }
+
+    .naji {
+      font-size: 16px !important;
+    }
+
+    .carpet {
+      margin-top: 50px;
+    }
+    .box {
+      border-top-right-radius: 20px;
+      height: 50px;
+    }
+
+    .box1 {
+      border-top-left-radius: 20px;
+      height: 50px;
+    }
+
+    .row1 {
+      flex-direction: column-reverse;
+      row-gap: 25px;
+    }
+
+    .title1 {
+      padding: 0 40px;
+      margin-top: 150px;
+      font-size: 16px;
+    }
+
+    .title2 {
+      padding: 0 40px;
+      margin-top: 235px;
+      font-size: 16px;
+    }
+
+    .title3 {
+      padding: 0 40px;
+      margin-top: 325px;
+      font-size: 16px;
+    }
+
+    .carpet1 {
+      width: 100%;
+      aspect-ratio: 4 / 5.6;
+      object-fit: contain;
+      border-radius: 15px;
+      position: absolute;
+    }
+
+    .ii {
+      padding-left: 10px;
+    }
+
+    .title3 {
+
+      .icon {
+        width: 24px!important;
+        height: 24px!important;
+      }
+    }
+  }
+}
